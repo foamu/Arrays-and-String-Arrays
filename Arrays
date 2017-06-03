@@ -1,0 +1,28 @@
+
+public class Arrays {
+
+	public static void main(String[] args) {
+
+		int[] ageNumber = new int[5];
+
+		ageNumber[0] = 10;
+		ageNumber[1] = 20;
+		ageNumber[2] = 30;
+		ageNumber[3] = 40;
+		ageNumber[4] = 50;
+
+		for (int i = 0; i < ageNumber.length; i++) {
+			System.out.println(ageNumber[i]);
+		}
+
+		int[] weights = { 5, 8, 10, 12, 15 };
+
+		for (int weight: weights) {
+			System.out.println(weight + "lb dumbbell.");
+		}
+		
+		
+		
+	}
+
+}
