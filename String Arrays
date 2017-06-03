@@ -1,0 +1,28 @@
+
+public class StringArrays {
+	public static void main(String[] args) {
+		
+		String[] studentNames = {"max", "kelsey", "conrad", "george", "jessica"};
+		
+		for(int i=0; i < studentNames.length; i++) {
+			System.out.println(studentNames[i]);
+		}
+		
+		
+		String[] employeeNames;
+		employeeNames = new String[5];
+		
+		employeeNames[0] = "fred";
+		employeeNames[1] = "pam";
+		employeeNames[2] = "anastasia";
+		employeeNames[3] = "bob";
+		employeeNames[4] = "zombo";
+		
+		for(String employeeName: employeeNames) {
+			System.out.println(employeeName);
+		}
+		
+		
+	}
+
+}
